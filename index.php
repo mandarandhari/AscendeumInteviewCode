@@ -37,17 +37,17 @@
             </div>
         </div>
         <div class="select-bets" style="clear: both;">
-            <a style="text-decoration: none;" href="http://localhost/interview/dice.php?bet=below_7&balance=<?php echo $_SESSION['balance']; ?>">
+            <a style="text-decoration: none;" href="http://localhost/AscendeumInteviewCode/dice.php?bet=below_7&balance=<?php echo $_SESSION['balance']; ?>">
                 <div class="bets" style="width: 33.33%; float: left; height: 100px; background-color: #fbd277; text-align: center; ">
                     <p>Below 7</p>
                 </div>
             </a>
-            <a style="text-decoration: none;" href="http://localhost/interview/dice.php?bet=lucky_7&balance=<?php echo $_SESSION['balance']; ?>">
+            <a style="text-decoration: none;" href="http://localhost/AscendeumInteviewCode/dice.php?bet=lucky_7&balance=<?php echo $_SESSION['balance']; ?>">
                 <div class="bets" style="width: 33.33%; float: left; height: 100px; background-color: #85fb77; text-align: center; ">
                     <p>Lucky 7</p>
                 </div>
             </a>
-            <a style="text-decoration: none;" href="http://localhost/interview/dice.php?bet=above_7&balance=<?php echo $_SESSION['balance']; ?>">
+            <a style="text-decoration: none;" href="http://localhost/AscendeumInteviewCode/dice.php?bet=above_7&balance=<?php echo $_SESSION['balance']; ?>">
                 <div class="bets" style="width: 33.33%; float: left; height: 100px; background-color: #77ebfb; text-align: center; ">
                     <p>Above 7</p>
                 </div>
@@ -65,7 +65,7 @@
             <h1>You <?php echo $_SESSION['result']; ?></h1>
         </div>
         <div class="reset" style="text-align: center;">
-            <a href="http://localhost/interview/dice.php?reset=true" style="text-decoration: none; color: red;">Reset</a>
+            <a href="http://localhost/AscendeumInteviewCode/dice.php?reset=true" style="text-decoration: none; color: red;">Reset</a>
         </div>
     </div>
 </body>

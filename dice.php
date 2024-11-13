@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_GET['reset']) && $_GET['reset'] == 'true') {
     session_destroy();
-    header('location: http://localhost/interview/');
+    header('location: http://localhost/AscendeumInteviewCode/');
 }
 
 $balance = $_GET['balance'] - 10;
@@ -29,4 +29,4 @@ $_SESSION['dice_1'] = $dice_1;
 $_SESSION['dice_2'] = $dice_2;
 $_SESSION['result'] = $result;
 
-header('location: http://localhost/interview/');
+header('location: http://localhost/AscendeumInteviewCode/');
